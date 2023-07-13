@@ -6,7 +6,7 @@ const CRV_VARIANTS = [
       formattedPrice:"$38,900",
       fuelConsumption:40,
       seatingCapacity:5,
-      allowWheels:17,
+      alloyWheels:17,
       checked:true,
       imageName:"crystal_black"
     },
@@ -16,7 +16,7 @@ const CRV_VARIANTS = [
       price:42900,
       fuelConsumption:44,
       seatingCapacity:7,
-      allowWheels:17,
+      alloyWheels:17,
       imageName:"crystal_black"
     },
     {
@@ -25,7 +25,7 @@ const CRV_VARIANTS = [
       price:45900,
       fuelConsumption:48,
       seatingCapacity:5,
-      allowWheels:18,
+      alloyWheels:18,
       imageName:"crystal_black"
     },
     {
@@ -34,7 +34,7 @@ const CRV_VARIANTS = [
       price:53600,
       fuelConsumption:55,
       seatingCapacity:5,
-      allowWheels:19,
+      alloyWheels:19,
       imageName:"crystal_black"
     }
   ]

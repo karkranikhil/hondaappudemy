@@ -1,0 +1,16 @@
+label{
+    font-size: 20px;
+    border: 0.56px solid grey;
+    padding: 12px 24px;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+}
+input[type="radio"]:checked+label{
+    background-color: #ffc200;
+}

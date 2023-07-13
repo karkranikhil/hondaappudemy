@@ -1,0 +1,17 @@
+nav{
+    box-shadow: 0px 0px 2px grey;
+    width: 100%;
+}
+a{
+    font-size: 24px;
+    color: #cc0000;
+}
+
+@media screen and (max-width:520px) {
+    a{
+        font-size: 16px;
+    } 
+    img{
+        width: 150px;
+    }
+}

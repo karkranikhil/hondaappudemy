@@ -1,0 +1,12 @@
+body{
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+/** Three ways to add SLDS
+
+1. Using SLDS CDN
+2. By copting CSS file directly
+3. By install the package through npm and copy that file to assets
+
+**/

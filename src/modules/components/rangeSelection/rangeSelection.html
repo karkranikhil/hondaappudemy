@@ -1,0 +1,15 @@
+<template>
+    <template for:each={variants} for:item="item">
+        <!-- key used as variant because this is a unique data attribute in the jSON-->
+        <div key={item.variant}>
+            <input type="radio" class="slds-hidden" id={item.variant} name="variants" 
+                value={item.variant} checked={item.checked} onchange={selectionHandler}>
+            <!-- for is pointing to ID above-->
+            <label class="slds-radio__label" for={item.variant}>
+                <span>{item.variant}</span>
+                <span>From {item.formattedPrice}</span>
+            </label>
+        </div>
+    </template>
+    
+</template>

@@ -1,0 +1,20 @@
+<template>
+    <div class="slds-grid slds-wrap">
+         <div class="slds-col slds-size_12-of-12">
+             <img src={selectedVariant.selectedimage} alt="honda image"/>
+         </div>
+         <div class="slds-col slds-size_12-of-12 slds-large-size_4-of-12 slds-text-align_center">
+             <div class="slds-text-heading_large"><strong>{selectedVariant.fuelConsumption}</strong></div>
+             <div class="slds-text-heading_medium">Fuel Consumption (miles/gallon)<sup>Est.</sup></div>
+         </div>
+         <div class="slds-col slds-size_12-of-12 slds-large-size_4-of-12 slds-text-align_center">
+             <div class="slds-text-heading_large"><strong>{selectedVariant.seatingCapacity}</strong></div>
+             <div class="slds-text-heading_medium">Seating Capacity</div>
+         </div>
+         <div class="slds-col slds-size_12-of-12 slds-large-size_4-of-12 slds-text-align_center">
+             <div class="slds-text-heading_large"><strong>{selectedVariant.alloyWheels}"</strong></div>
+             <div class="slds-text-heading_medium">Alloy Wheels</div>
+         </div>
+ 
+    </div>
+ </template>

@@ -1,0 +1,28 @@
+.color_circle{
+    height: 50px;
+    width: 50px;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ignite_red {
+    background: linear-gradient(135deg, rgb(228, 26, 44) 24%, rgb(163, 2, 14) 62%, rgb(228, 26, 44) 62%, rgb(228, 26, 44) 62%, rgb(228, 26, 44) 100%);
+  }
+  
+.sporty_blue {
+    background: linear-gradient(135deg, rgb(0, 117, 217) 24%, rgb(0, 53, 192) 62%, rgb(0, 117, 217) 62%, rgb(0, 117, 217) 62%, rgb(0, 117, 217) 100%);
+}
+  
+.crystal_black {
+    background: linear-gradient(135deg, rgb(48, 48, 48) 24%, rgb(26, 26, 27) 62%, rgb(48, 48, 48) 62%, rgb(48, 48, 48) 62%, rgb(48, 48, 48) 100%);
+}
+  
+.platinum_white {
+    background: linear-gradient(135deg, rgb(234, 234, 233) 24%, rgb(197, 198, 192) 62%, rgb(234, 234, 233) 62%, rgb(234, 234, 233) 62%, rgb(234, 234, 233) 100%);
+}
+input[type="radio"]:checked+label{
+    border:5px solid rgb(245, 193, 62);
+}
+input[type="radio"]:checked+label+div{
+    color: rgb(245, 193, 62);
+}

@@ -12,7 +12,7 @@ export default class CarDetails extends LightningElement {
     set selectedVariant(data){
         if(data){
             let model = data.variant.toLowerCase().replaceAll(' ', '')
-            let selectedimage = `public/assets/honda/${model}/${data.imageName}.png`
+            let selectedimage = `/public/assets/honda/${model}/${data.imageName}.png`
             console.log("this is the selectedimage property ", selectedimage)
             this._selectedVariant = {...data, "selectedimage":selectedimage}
         }
